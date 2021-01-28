@@ -1,0 +1,14 @@
+primary key 
+
+data types
+
+	date
+	datetime
+
+foreign key constraint
+
+syntax errors
+
+SQL: Structured Query Language
+
+* all columns
