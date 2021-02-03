@@ -12,6 +12,6 @@ insert into enrollments
 insert into enrollments
 	values (2, 1235, 'CIT-129', 'Mobile App Development', 'Spring');
 insert into enrollments
-	values (2, 1235, 'CIT-236', 'SQL Programming', 'Spring');
+	values (3, 1235, 'CIT-236', 'SQL Programming', 'Spring');
     
     
