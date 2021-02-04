@@ -1,0 +1,20 @@
+Install MySQL Server (Community Edition)
+
+Install MySQL Workbench
+Visual Studio Code (MySQL) 
+
+root user: admin
+
+Created a new user: jeffrey
+Use this to connect to your server from MySQL Workbench
+
+SELECT: used to fetch data
+WHERE: filtering
+
+strict typing
+
+pattern matching
+NULL
+date range filtering
+
+
