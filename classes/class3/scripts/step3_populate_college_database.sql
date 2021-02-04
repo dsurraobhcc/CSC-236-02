@@ -25,7 +25,7 @@ insert into students (student_id, last_name, first_name, gender, date_of_birth)
 	(1250, 'Manning', 'Evan', 'M', '1987-09-02'),
 	(1251, 'Burgess', 'Keith', 'M', '1991-11-01'),
     (1252, 'Richards', 'Keith', 'M', '1994-09-01'),
-    (1252, 'Keith', 'Jim', 'M', '1994-10-10');
+    (1253, 'Keith', 'Jim', 'M', '1994-10-10');
 
 -- populate enrollments table
 insert into enrollments (enrollment_id, student_id, course_code, course_name, semester)
