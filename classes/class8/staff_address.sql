@@ -26,3 +26,27 @@ inner join address a on s.address_id = a.address_id
 inner join inventory i on s.store_id = i.store_id
 inner join film f on i.film_id = f.film_id;
 
+select f.title, COUNT(f.title) as num_files
+from store s
+inner join address a on s.address_id = a.address_id
+inner join inventory i on s.store_id = i.store_id
+inner join film f on i.film_id = f.film_id
+GROUP BY f.title;
+
+/*
+Error Code: 1055. Expression #2 of SELECT list is not in GROUP BY clause 
+and contains nonaggregated column 'sakila.f.description' which is not functionally 
+dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+*/
+
+select f.title, s.store_id, COUNT(f.title) as num_films
+from store s
+inner join address a on s.address_id = a.address_id
+inner join inventory i on s.store_id = i.store_id
+inner join film f on i.film_id = f.film_id
+GROUP BY f.title, s.store_id;
+
+
+
+
+
