@@ -13,8 +13,3 @@ where e.enrollment_id is null;
 
 select c.course_id, e.enrollment_id 
 from course c left outer join enrollment e on c.course_id = e.course_id;
-
-
-
-
-
