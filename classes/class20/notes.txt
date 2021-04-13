@@ -1,0 +1,7 @@
+indexes to improve performance
+
+querying indexes
+
+full-table scan
+
+using EXPLAIN to get the execution plan
