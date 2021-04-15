@@ -1,0 +1,10 @@
+use sakila;
+
+show indexes from film;
+
+SELECT DISTINCT
+    TABLE_NAME,
+INDEX_NAME
+FROM INFORMATION_SCHEMA.STATISTICS 
+WHERE TABLE_SCHEMA = 'sakila';
+
