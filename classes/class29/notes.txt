@@ -1,0 +1,35 @@
+food_served
+***********
+served_id (FK to served) PK
+food_id   (FK to food)   PK
+measurement
+
+1, chicken, 7
+1, plantain, 6
+1, tomato, 3
+100, chicken, 4
+100, plantain, 3
+100, onions, 5
+101, ..., 4
+101, ..., 40
+...
+
+food_type
+*********
+food_type_id
+type_name
+
+food
+****
+food_id
+food_type_id (FK)
+food_name
+
+food_type: 300, Frozen Food
+food_type: 301, Dried Fruit
+
+food: 100, 300, Chicken
+food: 101, 300, Shrimp
+food: 102, 301, Mango
+
+
